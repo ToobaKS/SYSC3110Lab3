@@ -20,6 +20,10 @@ public class AddressBook {
         }
     }
 
+    public void newMethod() {
+        System.out.println("Testing");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tooba","Canada","1");
         AddressBook buddies = new AddressBook();
